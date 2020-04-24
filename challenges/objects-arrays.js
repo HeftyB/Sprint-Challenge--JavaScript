@@ -130,7 +130,7 @@ console.log(contactInfo);
 
 function filterItems(arr, query) {
   return arr.filter(function(el) {
-      return el.toLowerCase().indexOf(query.toLowerCase()) !== -1
+      return el.university.toLowerCase().indexOf(query.toLowerCase()) !== -1
   })
 }
 
